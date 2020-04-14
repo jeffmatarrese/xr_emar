@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>XR-EMAR a-frame test</title>
+    <meta name="description" content="XR-EMAR testing ground with A-Frame">
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>     <!-- SCENE -->
+      <a-assets>     <!-- ASSETS -->
+        <a-asset-item id="emar" src="assets/emarV-X1.glb"></a-asset-item>
+
+      </a-assets>     <!-- /ASSETS -->
+
+      <a-entity gltf-model="#emar" position="1 0.75 -3"></a-entity>
+      <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
+      <a-sky color="#ECECEC"></a-sky>
+
+
+    </a-scene>     <!-- /SCENE -->
+  </body>
+</html>
