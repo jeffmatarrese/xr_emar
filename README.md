@@ -1,6 +1,6 @@
 # XR EMAR
- Testing ground for three.js and webXR platform for social robot interaction.
- 
- This is not the official GitHub repository for project EMAR.
+Testing ground for web-based social robot interaction
+
+Started with three.js and a-frame, transitioned to Unity with Mozilla's release of the WebXR exporter in April 2020.
 
 
