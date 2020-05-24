@@ -2019,7 +2019,7 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
+  serializedVersion: 3
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
@@ -3140,12 +3140,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &1314147276 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 2345211957819186503, guid: 38b09a44ab2b1034c87a073a6db0be43,
-    type: 3}
-  m_PrefabInstance: {fileID: 985145340}
-  m_PrefabAsset: {fileID: 0}
 --- !u!20 &1434691996 stripped
 Camera:
   m_CorrespondingSourceObject: {fileID: 20092747195267750, guid: c61e4de741d37461e85f25866d1ebd31,
@@ -3912,18 +3906,30 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1314147276}
-        m_MethodName: set_material
-        m_Mode: 2
+      - m_Target: {fileID: 0}
+        m_MethodName: 
+        m_Mode: 1
         m_Arguments:
-          m_ObjectArgument: {fileID: 2100000, guid: 48255856db55ab04f8c5a2a19f076a9e,
-            type: 2}
+          m_ObjectArgument: {fileID: 3523940141858153387, guid: e4c8996317b534b40b4ecd7d55aa769a,
+            type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 1
-        m_CallState: 2
+        m_CallState: 0
+      - m_Target: {fileID: 0}
+        m_MethodName: 
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 3523940141858153387, guid: e4c8996317b534b40b4ecd7d55aa769a,
+            type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 0
 --- !u!114 &1657094131
 MonoBehaviour:
   m_ObjectHideFlags: 0
