@@ -12,6 +12,6 @@ EditorBuildSettings:
     path: Assets/WebXR/Samples/Desert/WebXR.unity
     guid: 62764e63b9bc64baaaf251014195be42
   - enabled: 1
-    path: Assets/Scenes/web Emar.unity
+    path: Assets/Scenes/web Emar - emotion.unity
     guid: 208e15dc3aaa330419decfcd1d651af8
   m_configObjects: {}
